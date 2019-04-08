@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Moq" Version="4.10.1" />
+    <PackageReference Include="nunit" Version="3.11.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.13.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Com.Common">
+      <HintPath>..\..\bin\netstandard2.0\Com.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Com.Data">
+      <HintPath>..\..\bin\netstandard2.0\Com.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Com.Repo">
+      <HintPath>..\..\bin\netstandard2.0\Com.Repo.dll</HintPath>
+    </Reference>
+    <Reference Include="Com.Services">
+      <HintPath>..\..\bin\netstandard2.0\Com.Services.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
